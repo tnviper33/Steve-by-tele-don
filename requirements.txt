@@ -14,7 +14,7 @@ Heroku3
 datetime
 pytz
 aiohttp
-httpcore==0.13.*
+httpcore==0.9.*
 
 #---master---#
 #Telethroid==0.0.10
