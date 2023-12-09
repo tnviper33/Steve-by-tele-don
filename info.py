@@ -95,7 +95,7 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
 SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 4800))
 DOWNLOAD_TEXT_URL = "https://t.me/+pVPv69822bhmMmZl"
-CAPTION_BUTTON_URL = "https://t.me/+6vlG_W5h8pFiOTg1"
+CAPTION_BUTTON_URL = "https://t.me/tamil_movies_telugu_movies_hindi"
 WEBHOOK = bool(environ.get("WEBHOOK", True))
 BUTTON_LOCK = environ.get("BUTTON_LOCK", "True")
 RemoveBG_API = environ.get("RemoveBG_API", "eQ9W36MSu3pmQJLVPZHmF47F")
