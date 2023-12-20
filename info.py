@@ -44,9 +44,9 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'True')), True)
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://think:think@cluster015.9oqeden.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "cluster015")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Ipopuding')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://cliknot:<password>@cluster0990.ujysa9z.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0990")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Ipopudingg')
 
 # Others
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
