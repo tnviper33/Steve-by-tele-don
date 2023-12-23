@@ -16,7 +16,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '21925188'))
 API_HASH = environ.get('API_HASH', 'f9b377f83f916d783f25d95a2f4e232e')
-BOT_TOKEN = environ.get('BOT_TOKEN', '5718727713:AAEpcnESCyWDuUCwMz3k_DU7pXp2LiidGao')
+BOT_TOKEN = environ.get('BOT_TOKEN', '6906679679:AAH-5908L7qAj-2j3r3ECvZqWLHE82liPmw')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -33,12 +33,12 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '0').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('AUTH_CHANNEL', "-1001595914695")
+auth_channel = environ.get('AUTH_CHANNEL', "-1002021705186")
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', "-1001595914695")
-reqst_channel = environ.get('REQST_CHANNEL_ID', "-1001595914695")
+support_chat_id = environ.get('SUPPORT_CHAT_ID', "-1002124577913")
+reqst_channel = environ.get('REQST_CHANNEL_ID', "-1002124577913")
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'True')), True)
@@ -63,7 +63,7 @@ PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+6niSUk8MnQwMDM1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/tamil_movies_telugu_movies_hindi')
 MSG_ALRT = environ.get('MSG_ALRT', 'ᴠᴀʟᴀʀ ᴍᴏʀɢʜᴜʟɪs!')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001680243578'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002124577913'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Comrade Movies')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
