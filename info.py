@@ -14,7 +14,7 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '5431249569'))
+API_ID = int(environ.get('API_ID', '21925188')
 API_HASH = environ.get('API_HASH', 'f9b377f83f916d783f25d95a2f4e232e')
 BOT_TOKEN = environ.get('BOT_TOKEN', '6906679679:AAH-5908L7qAj-2j3r3ECvZqWLHE82liPmw')
 
@@ -44,9 +44,9 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'True')), True)
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://cliknot:<password>@cluster0990.ujysa9z.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0990")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'goodcolletfault')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://think:think@cluster015.9oqeden.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "cluster015")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Ipopuding')
 
 # Others
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
