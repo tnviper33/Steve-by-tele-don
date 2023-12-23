@@ -37,8 +37,8 @@ auth_channel = environ.get('AUTH_CHANNEL', "-1002021705186")
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', "-1001595914695")
-reqst_channel = environ.get('REQST_CHANNEL_ID', "-1001595914695")
+support_chat_id = environ.get('SUPPORT_CHAT_ID', "-1002124577913")
+reqst_channel = environ.get('REQST_CHANNEL_ID', "-1002124577913")
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'True')), True)
@@ -46,7 +46,7 @@ NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'True')), True)
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://cliknot:<password>@cluster0990.ujysa9z.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0990")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Ipopudingg')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'goodcolletfault')
 
 # Others
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
