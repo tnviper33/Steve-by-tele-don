@@ -37,8 +37,8 @@ auth_channel = environ.get('AUTH_CHANNEL', "-1002021705186")
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', "-1002124577913")
-reqst_channel = environ.get('REQST_CHANNEL_ID', "-1002124577913")
+support_chat_id = environ.get('SUPPORT_CHAT_ID', "-1002036576321")
+reqst_channel = environ.get('REQST_CHANNEL_ID', "-1002036576321")
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'True')), True)
@@ -50,7 +50,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Ipopuding')
 
 # Others
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "0")
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "1")
 VERIFY2_URL = environ.get('VERIFY2_URL', "tnshort.net")
 VERIFY2_API = environ.get('VERIFY2_API', "eadd283ee4fb83c41e43cb36b73bf5f658c29645")
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'tnshort.net')
