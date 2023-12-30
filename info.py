@@ -16,24 +16,24 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '21925188'))
 API_HASH = environ.get('API_HASH', 'f9b377f83f916d783f25d95a2f4e232e')
-BOT_TOKEN = environ.get('BOT_TOKEN', '6906679679:AAH-5908L7qAj-2j3r3ECvZqWLHE82liPmw')
+BOT_TOKEN = environ.get('BOT_TOKEN', '6919514458:AAEOIJqLDPBxo-PhrwUMHwRazg4SjC-93hw')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = is_enabled((environ.get('USE_CAPTION_FILTER', 'True')), True)
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/3abd4de63dd495476bb60.jpg')).split()
+PICS = (environ.get('PICS', 'https://telegra.ph/file/f1408453ccc0a9dd11e3c.jpg')).split()
 NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/cf24c19270897a8bebbaf.jpg")
 TUTORIAL_VIDEO = environ.get("TUTORIAL_VIDEO", "https://telegra.ph/file/17fefde5bb2445b70b002.mp4")
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/fadf76229a7c7de7a7cff.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/5e2d4418525832bc9a1b9.jpg")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5431249569 5296610774').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5431249569, 5296610774').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '0').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('AUTH_CHANNEL', "-1002021705186")
+auth_channel = environ.get('AUTH_CHANNEL', "-1001504505611")
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
@@ -51,10 +51,10 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Ipopudig')
 # Others
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "1")
-VERIFY2_URL = environ.get('VERIFY2_URL', "tnshort.net")
-VERIFY2_API = environ.get('VERIFY2_API', "eadd283ee4fb83c41e43cb36b73bf5f658c29645")
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'tnshort.net')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'eadd283ee4fb83c41e43cb36b73bf5f658c29645')
+VERIFY2_URL = environ.get('VERIFY2_URL', "zxlink.in")
+VERIFY2_API = environ.get('VERIFY2_API', "c39b1c277980a6337d07275c6dca1d493eab4a71")
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'zxlink.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'c39b1c277980a6337d07275c6dca1d493eab4a71')
 IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'True')), True)
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
@@ -63,7 +63,7 @@ PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+2VrRus8vN30wYzRl')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/tamil_movies_telugu_movies_hindi')
 MSG_ALRT = environ.get('MSG_ALRT', 'ᴠᴀʟᴀʀ ᴍᴏʀɢʜᴜʟɪs!')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002124577913'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001636614179'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Comrade Movies')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
