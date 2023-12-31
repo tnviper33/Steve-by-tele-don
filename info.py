@@ -61,7 +61,7 @@ MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+2VrRus8vN30wYzRl')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/tamil_movies_telugu_movies_hindi')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/requestedmovies_on')
 MSG_ALRT = environ.get('MSG_ALRT', 'ᴠᴀʟᴀʀ ᴍᴏʀɢʜᴜʟɪs!')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001636614179'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Comrade Movies')
@@ -95,7 +95,7 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
 SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 3600))
 DOWNLOAD_TEXT_URL = "https://t.me/+pVPv69822bhmMmZl"
-CAPTION_BUTTON_URL = "https://t.me/tamil_movies_telugu_movies_hindi"
+CAPTION_BUTTON_URL = "https://t.me/requestedmovies_on"
 WEBHOOK = bool(environ.get("WEBHOOK", True))
 BUTTON_LOCK = environ.get("BUTTON_LOCK", "True")
 RemoveBG_API = environ.get("RemoveBG_API", "eQ9W36MSu3pmQJLVPZHmF47F")
