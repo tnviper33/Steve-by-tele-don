@@ -46,14 +46,14 @@ NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'True')), True)
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://vadivelhari:8270008063@cluster0101.t7ojzte.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0101")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Ipoopudig')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Ipopudig')
 
 # Others
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "0")
-VERIFY2_URL = environ.get('VERIFY2_URL', "zxlink.net")
+VERIFY2_URL = environ.get('VERIFY2_URL', "https://zxlink.in")
 VERIFY2_API = environ.get('VERIFY2_API', "c39b1c277980a6337d07275c6dca1d493eab4a71")
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'zxlink.net')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://zxlink.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'c39b1c277980a6337d07275c6dca1d493eab4a71')
 IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'True')), True)
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
