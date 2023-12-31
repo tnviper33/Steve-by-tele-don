@@ -7,7 +7,7 @@ class script(object):
 
     ABOUT_TXT = """<b>
 ‣ ᴍʏ ɴᴀᴍᴇ : {}\n
-‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/@TH0MASHELBY07><b>𝗧𝗛𝗢𝗠𝗔𝗦</b></a>\n
+‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/thomas_shelby_0_7><b>𝗧𝗛𝗢𝗠𝗔𝗦</b></a>\n
 ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href=https://www.python.org><b>ᴘʏᴛʜᴏɴ</b></a>\n
 ‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a>\n
 ‣ ʜᴏsᴛᴇᴅ ᴏɴ : <a href=heroku.com><b>ʜᴇʀᴏᴋᴜ</b></a>\n\n
@@ -233,8 +233,8 @@ Nᴀᴍᴇ - {}"""
 <b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
 • ꜰᴜʟʟ ɴᴀᴍᴇ : 𝗧𝗛𝗢𝗠𝗔𝗦
-• ᴜꜱᴇʀɴᴀᴍᴇ : @TH0MASHELBY07
-• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/@TH0MASHELBY07'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
+• ᴜꜱᴇʀɴᴀᴍᴇ : @thomas_shelby_0_7
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/thomas_shelby_0_7'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
 
     REQINFO = """
 ⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠
