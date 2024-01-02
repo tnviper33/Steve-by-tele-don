@@ -93,7 +93,7 @@ LOG_STR += (f"MAX_LIST_ELM Found, long list will be shortened to first {MAX_LIST
 LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
 
-SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 600))
+SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 1800))
 DOWNLOAD_TEXT_URL = "https://t.me/+pVPv69822bhmMmZl"
 CAPTION_BUTTON_URL = "https://t.me/requestedmovies_on"
 WEBHOOK = bool(environ.get("WEBHOOK", True))
